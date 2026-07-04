@@ -280,7 +280,7 @@ For Claude Code users on macOS / Linux:
 # Clone the repository
 git clone https://github.com/xbtlin/ai-berkshire.git
 
-# Copy skills to Claude Code global commands directory
+# Copy skills to the current project's .claude/commands directory
 cd ai-berkshire
 ./scripts/install-claude-commands.sh
 ```
@@ -299,11 +299,11 @@ For Codex users on macOS / Linux:
 # Clone the repository
 git clone https://github.com/xbtlin/ai-berkshire.git
 
-# Generate and install Codex skills to ~/.codex/skills
+# Generate and install Codex skills to the current project's .codex/skills
 cd ai-berkshire
 ./scripts/install-codex-skills.sh
 
-# Optional: install Codex slash prompts to ~/.codex/prompts
+# Optional: install Codex slash prompts to the current project's .codex/prompts
 # for a Claude Code-like /investment-research entry point
 ./scripts/install-codex-prompts.sh
 ```

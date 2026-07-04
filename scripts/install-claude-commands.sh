@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-DEST="${CLAUDE_COMMANDS_DIR:-$HOME/.claude/commands}"
+DEST="${CLAUDE_COMMANDS_DIR:-$ROOT/.claude/commands}"
 
 mkdir -p "$DEST"
 cp "$ROOT"/skills/*.md "$DEST"/

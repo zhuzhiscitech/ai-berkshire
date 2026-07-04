@@ -280,7 +280,7 @@ Claude Code 用户安装（macOS / Linux）：
 # 克隆仓库
 git clone https://github.com/xbtlin/ai-berkshire.git
 
-# 复制 skills 到 Claude Code 全局 commands 目录
+# 复制 skills 到当前项目的 .claude/commands 目录
 cd ai-berkshire
 ./scripts/install-claude-commands.sh
 ```
@@ -299,11 +299,11 @@ Codex 用户安装（macOS / Linux）：
 # 克隆仓库
 git clone https://github.com/xbtlin/ai-berkshire.git
 
-# 生成并安装 Codex skills 到 ~/.codex/skills
+# 生成并安装 Codex skills 到当前项目的 .codex/skills
 cd ai-berkshire
 ./scripts/install-codex-skills.sh
 
-# 可选：安装 Codex slash prompts 到 ~/.codex/prompts
+# 可选：安装 Codex slash prompts 到当前项目的 .codex/prompts
 # 用于获得接近 Claude Code 的 /investment-research 体验
 ./scripts/install-codex-prompts.sh
 ```

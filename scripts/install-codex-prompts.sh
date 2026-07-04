@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-DEST="${CODEX_HOME:-$HOME/.codex}/prompts"
+DEST="${CODEX_HOME:-$ROOT/.codex}/prompts"
 
 python3 "$ROOT/scripts/sync-codex-prompts.py"
 mkdir -p "$DEST"

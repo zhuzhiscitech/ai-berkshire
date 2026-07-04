@@ -8,7 +8,7 @@ GitHub: xbtlin/ai-berkshire
 ## 项目结构
 
 ```
-skills/          — 投研 Skill 定义（.md），复制到 ~/.claude/commands/ 使用
+skills/          — 投研 Skill 定义（.md），复制到项目本地 .claude/commands/ 使用
 tools/           — 辅助工具（financial_rigor.py 精确计算）
 reports/         — 投资研究报告输出
 assets/          — 图片等静态资源
